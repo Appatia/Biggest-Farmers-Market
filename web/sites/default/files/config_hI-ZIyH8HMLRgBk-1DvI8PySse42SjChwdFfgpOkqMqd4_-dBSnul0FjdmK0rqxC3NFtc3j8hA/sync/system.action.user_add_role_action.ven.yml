@@ -1,0 +1,14 @@
+uuid: 51d8a0d8-2ca9-4f3b-81a6-f29b4fd9eeab
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ven
+  module:
+    - user
+id: user_add_role_action.ven
+label: 'Add the Ven role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: ven

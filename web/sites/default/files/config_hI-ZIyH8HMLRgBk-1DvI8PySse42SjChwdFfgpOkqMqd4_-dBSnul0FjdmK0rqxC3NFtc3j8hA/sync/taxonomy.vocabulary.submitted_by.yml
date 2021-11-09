@@ -1,0 +1,8 @@
+uuid: 959a8ccb-71ae-4b38-bf4a-cd9283e8494f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Submitted By'
+vid: submitted_by
+description: 'Choose the vendor that submitted this recipe'
+weight: 0

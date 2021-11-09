@@ -1,0 +1,15 @@
+uuid: 3bbb8a43-2dc5-460b-b40b-fc4bdb76fbda
+name: 'Biggest Farmers Market'
+mail: drupFan@mail.com
+slogan: 'Farm Fresh Food'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
+mail_notification: ''

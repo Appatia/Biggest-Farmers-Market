@@ -1,0 +1,18 @@
+uuid: 09973ae5-fec7-4690-97d7-d3fa90a77028
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.submitted_by
+id: taxonomy_term.submitted_by.name
+field_name: name
+entity_type: taxonomy_term
+bundle: submitted_by
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

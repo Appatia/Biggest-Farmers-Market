@@ -1,0 +1,31 @@
+uuid: b957d852-acab-4055-a6e0-ada535b1c60e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.ingredients.field_ingredients
+    - taxonomy.vocabulary.ingredients
+  module:
+    - text
+id: taxonomy_term.ingredients.default
+targetEntityType: taxonomy_term
+bundle: ingredients
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_ingredients:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true

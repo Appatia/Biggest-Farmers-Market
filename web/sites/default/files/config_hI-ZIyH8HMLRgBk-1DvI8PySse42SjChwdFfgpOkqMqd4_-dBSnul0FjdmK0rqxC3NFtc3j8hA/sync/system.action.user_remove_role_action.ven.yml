@@ -1,0 +1,14 @@
+uuid: ee591410-c232-4a6d-823c-d59b9007790b
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.ven
+  module:
+    - user
+id: user_remove_role_action.ven
+label: 'Remove the Ven role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: ven
